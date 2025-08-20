@@ -26,13 +26,13 @@ void main() {
 
   // Berechne den Durchschnitt der Temperaturen
   double avgTemp = ((temps[0] ?? 0) + (temps[1] ?? 0) + (temps[2] ?? 0)) / 3;
-  print('Durchschnittstemperatur: $avgTemp');
+  print('Durchschnittstemperatur: $avgTemp °C');
 
   // Berechne den Durchschnitt der Niederschläge
   double avgRain = ((rains[0] ?? 0) + (rains[1] ?? 0) + (rains[2] ?? 0)) / 3;
-  print('Durchschnittlicher Niederschlag: $avgRain');
+  print('Durchschnittlicher Niederschlag: $avgRain mm');
 
   // Berechne den Durchschnitt der Windgeschwindigkeiten
   double avgWind = ((winds[0] ?? 0) + (winds[1] ?? 0) + (winds[2] ?? 0)) / 3;
-  print('Durchschnittliche Windgeschwindigkeit: $avgWind');
+  print('Durchschnittliche Windgeschwindigkeit: $avgWind km/h');
 }
